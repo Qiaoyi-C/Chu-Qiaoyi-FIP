@@ -1,5 +1,5 @@
-
 #mobile-outline {
+
    outline: 20px solid #333;
    max-width: 412px;
    margin: 20px auto 20px auto;
@@ -38,7 +38,6 @@ input, textarea {
 #main-nav input, #burger-con {
    display: none;
 }
-
 
 #main-nav input:checked ~ #burger-con {
    display: block;
@@ -227,7 +226,9 @@ input, textarea {
    list-style-type: none;
    margin: 0 0 0 20px;
    padding: 0;
+
    text-align: center;
+
 }
 
 #why-choose-us-bottom-nav ol li {

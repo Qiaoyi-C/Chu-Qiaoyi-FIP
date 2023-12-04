@@ -463,3 +463,100 @@ input, textarea {
 .dining-h3{
    color: #C54242;
 }
+
+/* Spa Activities Page */
+
+#spa {
+   background: url(../images/spa-main.jpeg) no-repeat;
+   height: 200px;
+}
+
+#spa-nav {
+   padding-top: 20px;
+   border-top: #EDEDED solid 2px;
+}
+
+#spa-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#spa-nav ul li {
+   margin-bottom: 15px;
+}
+
+#spa-nav ul li a {
+  color: inherit;
+  padding: 5px;
+}
+
+#spa-nav ul li a.selected {
+   border-left: #9a2018 solid 5px;
+ }
+
+ #spa-massage{
+   background: url(../images/spa-massage.jpeg) no-repeat;
+   height: 200px;
+ }
+
+ #spa-mid-box {
+   align-self: end;
+}
+
+.massage-time{
+   background-color: #F4F4F4;
+   margin-top: 24px;
+   padding: 30px 24px 30px 24px;
+   line-height: 40px;
+}
+
+.massage-time-title{
+   color: #871C15;
+   font-size: 20px;
+}
+
+.massage-time li{
+   list-style: none;
+}
+
+#spa-activities{
+   margin-top: 40px;
+   background-color: #EDEDED;
+
+}
+
+.act-title{
+   color: #5C5C5C;
+   font-size: 32px;
+   text-align: center;
+   border-bottom: #9a2018 solid 5px ;
+   margin-bottom: 30px;
+}
+
+#act-con-title{
+   padding-top: 30px;
+}
+
+.act-img-title{
+   color: #871C15;
+   font-size: 20px;
+}
+
+.act-img-con{
+   line-height: 30px;
+}
+
+.act-img-con li{
+   list-style: none;
+}
+
+.bt-more{
+   color: #FFF;
+   font-size: 18px;
+   background-color: #9A2018;
+   width: 412px;
+   border-radius: 50px;
+   padding: 8px;
+   margin-top: 16px;
+   margin-bottom: 56px;
+}

@@ -484,9 +484,11 @@ input, textarea {
    list-style: none;
    margin: 0;
    padding: 0;
+   text-align: left;
 }
 #spa-nav ul li {
    margin-bottom: 15px;
+   
 }
 
 #spa-nav ul li a {
@@ -519,6 +521,11 @@ input, textarea {
    font-size: 20px;
 }
 
+ul{
+   margin: 0;
+   padding: 0;
+}
+
 .massage-time li{
    list-style: none;
 }
@@ -544,10 +551,16 @@ input, textarea {
 .act-img-title{
    color: #871C15;
    font-size: 20px;
+   padding-top: 20px;
+   padding-bottom: 14px;
 }
 
 .act-img-con{
    line-height: 30px;
+}
+
+.act-img-con img{
+   width: 100%;
 }
 
 .act-img-con li{
@@ -558,9 +571,13 @@ input, textarea {
    color: #FFF;
    font-size: 18px;
    background-color: #9A2018;
-   width: 412px;
+   width: 100%;
    border-radius: 10px;
    padding: 8px;
    margin-top: 16px;
    margin-bottom: 56px;
+}
+
+#spa-activities, #footer-hero {
+   box-sizing: border-box;
 }

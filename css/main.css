@@ -371,7 +371,7 @@ input, textarea {
 
 #contact-hero-form input[type="submit"]:hover {
    background-color: #C54242;
-   border-radius: 8;
+   border-radius: 8px;
 }
 
 #footer-hero {

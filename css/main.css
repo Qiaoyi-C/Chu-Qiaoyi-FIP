@@ -577,11 +577,12 @@ ul{
    padding: 8px;
    margin-top: 16px;
    margin-bottom: 56px;
-   transition: background-color 0.5s ease; 
+   transition: border-radius 1s ease-in-out;
 }
 
 .bt-more:hover {
    background-color: #ff7171; 
+   border-radius: 50px;
  }
 
  @keyframes pulse {
@@ -601,7 +602,7 @@ ul{
    box-sizing: border-box;
 }
 
-#recommend::after{
+input[type="checkbox"]:checked + span::after{
    content: "\1F44D";
    background-color:#4a954a;
    border: 4px solid rgb(95, 249, 0);
@@ -612,4 +613,8 @@ ul{
    padding: 2px;
 }
 
+input[type="checkbox"]{
+  display: inline;
+  margin-right: 8px;
+}
  
